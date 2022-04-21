@@ -15,9 +15,56 @@ body {
   color: blue;
 }
 
+.bg-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -5;
+}
+
 nav .navbar-brand {
   font-weight: bold;
   font-size: 26px;
   letter-spacing: 1px;
+}
+
+header .carousel-img-one {
+  background-image: url("../IMG/main-carousel-1.jpg");
+}
+
+header .carousel-img-two {
+  background-image: url("../IMG/main-carousel-2.jpg");
+}
+
+header .carousel-img-three {
+  background-image: url("../IMG/main-carousel-3.jpg");
+}
+
+header .carousel-item {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  z-index: 5;
+}
+
+@media (min-width: 992px) {
+  header .carousel-img-one {
+    background-image: url("../IMG/main-carousel-1-hq.jpg");
+  }
+  header .carousel-img-two {
+    background-image: url("../IMG/main-carousel-2-hq.jpg");
+  }
+  header .carousel-img-three {
+    background-image: url("../IMG/main-carousel-3-hq.jpg");
+  }
+}
+
+@media (min-width: 1400px) {
+  header .carousel-item {
+    height: 600px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
