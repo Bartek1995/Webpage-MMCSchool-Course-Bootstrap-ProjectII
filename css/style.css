@@ -63,6 +63,10 @@ header .carousel-item {
   z-index: 5;
 }
 
+.home-history h3 {
+  font-weight: bold;
+}
+
 @media (min-width: 992px) {
   header .carousel-img-one {
     background-image: url("../IMG/main-carousel-1-hq.jpg");

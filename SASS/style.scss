@@ -80,6 +80,12 @@ header{
 }
 
 
+.home-history{
+    h3 {
+        font-weight: bold;
+    }
+}
+
 @media (min-width: 992px){
     header{
         
@@ -99,6 +105,8 @@ header{
     .home-motto{
         background-image: url('../IMG/sunset-gaa7312aa3_1920.jpg');
     }
+
+
 }
 
 @media (min-width: 1400px){
