@@ -114,7 +114,36 @@ footer {
     background-position: bottom;
     background-size: cover;
 }
+
+.aboutus-passion-and-goals{
+    background-color: rgb(247,247,247);
+
+    h3{
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: blue;
+    }
+}
+
+.aboutus-bottom{
+    .item-text{
+        h3{
+            font-weight: bold;
+            font-size: 26px;
+        }
+    }
+    .aboutus-bottom-item{
+        padding: 2px 3px;
+    }
+
+    .item-icon{
+        font-size: 35px;
+    }
+}
+
 @media (min-width: 992px){
+
     header{
         
         .carousel-img-one{
@@ -133,7 +162,23 @@ footer {
     .home-motto{
         background-image: url('../IMG/sunset-gaa7312aa3_1920.jpg');
     }
+    
+    .aboutus-passion-and-goals{
+        box-shadow: inset 0 5px 10px grey;
 
+        .passion-and-goals-item{
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transform: skew(-15deg);
+
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
 
 }
 
