@@ -11,9 +11,13 @@ body {
   font-size: 1.3rem;
 }
 
+footer {
+  font-size: 22px;
+}
+
 .top-hero {
   position: relative;
-  height: 200px;
+  height: 250px;
   z-index: 5;
 }
 
@@ -90,10 +94,6 @@ header .carousel-item {
   font-weight: bold;
 }
 
-footer {
-  font-size: 22px;
-}
-
 .aboutus-hero {
   background-image: url("../IMG/aboutus/highway-gc9be3d5ec_1920.jpg");
   background-position: bottom;
@@ -123,6 +123,62 @@ footer {
 
 .aboutus-bottom .item-icon {
   font-size: 35px;
+}
+
+.services-hero {
+  background-image: url("../IMG/services/car-g59d066d7e_1280.jpg");
+  background-position: 0 75%;
+  background-size: cover;
+}
+
+.services-content .service-hero-box {
+  position: relative;
+  z-index: 5;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.services-content .service-hero-box p {
+  font-size: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.services-content .box-one {
+  background-image: url("../IMG/services/engine.jpg");
+}
+
+.services-content .box-two {
+  background-image: url("../IMG/services/visual.jpg");
+}
+
+.services-content .box-three {
+  background-image: url("../IMG/services/car-audio.jpg");
+}
+
+.services-content .box-four {
+  background-image: url("../IMG/services/allinone.jpg");
+}
+
+.projects-hero {
+  background-image: url("../IMG/projects/project-hero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.projects-content .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 992px) {
